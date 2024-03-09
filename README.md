@@ -51,7 +51,7 @@ After downloading, place the dataset in an appropriate directory within your pro
 
 4. **Visualizing**
 
-<<<<<<< HEAD
+
     To visualize the generated images, you can use the `generate.py` script:
     
     ```
@@ -61,7 +61,7 @@ After downloading, place the dataset in an appropriate directory within your pro
     Below is an example of a generated image at epoch 173:
 
     ![image](tmp/epoch_173.jpg)
-=======
+
    To visualize the generated images, you can use the `generate.py` script:
     ```
     python generate.py --model_path <model_path>
