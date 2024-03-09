@@ -60,7 +60,7 @@ After downloading, place the dataset in an appropriate directory within your pro
 
     Below is an example of a generated image at epoch 173:
 
-    ![Generated Image at Epoch 173](tmp/epoch_173.jpg)
+    ![image](tmp/epoch_173.jpg)
 =======
    To visualize the generated images, you can use the `generate.py` script:
     ```
