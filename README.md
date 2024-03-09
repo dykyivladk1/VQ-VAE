@@ -1,4 +1,4 @@
-# Pix2Pix Implementation
+## Pix2Pix Implementation
 
 This repository is my personal implementation of the VQ-VAE model, which stands for Vector-Quantized Variational AutoEncoder. The principle of this model is based on Vector Quantization. The input is encoded using an Encoder to a low-dimensional space, then quantized using VQ, and finally decoded back to a high-dimensional space.
 
@@ -51,7 +51,19 @@ After downloading, place the dataset in an appropriate directory within your pro
 
 4. **Visualizing**
 
+<<<<<<< HEAD
+    To visualize the generated images, you can use the `generate.py` script:
+    
+    ```
+    python generate.py --model_path <path_to_trained_model> --num_outputs <num_outputs> --device <device>
+    ```
+
+    Below is an example of a generated image at epoch 173:
+
+    ![Generated Image at Epoch 173](tmp/epoch_173.jpg)
+=======
    To visualize the generated images, you can use the `generate.py` script:
     ```
     python generate.py --model_path <model_path>
     ```
+>>>>>>> d19e8ecc034c18927e5fba03ec8956282e2c0900
