@@ -52,4 +52,6 @@ After downloading, place the dataset in an appropriate directory within your pro
 4. **Visualizing**
 
    To visualize the generated images, you can use the `generate.py` script:
-
+    ```
+    python generate.py --model_path <model_path>
+    ```
