@@ -1,4 +1,4 @@
-## Pix2Pix Implementation
+## VQ-VAE Implementation
 
 This repository is my personal implementation of the VQ-VAE model, which stands for Vector-Quantized Variational AutoEncoder. The principle of this model is based on Vector Quantization. The input is encoded using an Encoder to a low-dimensional space, then quantized using VQ, and finally decoded back to a high-dimensional space.
 
